@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+    
+  .top-area{
+    background-color: #ccc;
+    font-size: 15px;
+    padding: 10px;
+  }
+  
+  .top-area span{
+    vertical-align: middle;
+    margin-left: 22px;
+  }
+  
+  .top-area a{
+    text-decoration: none;
+    color: #080808;
+  }
+  
+  .header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+  }
+  
+  .logo{
+      float: left;
+  }
+  
+  .seach{
+      margin-left: 100px;
+      border: 1px solid #ccc;
+  }
+  
+  .seach-box{
+      background-color: #FFFFFF;
+  }
+  
+  .seach-input{
+      border: none;
+      outline: none;
+      padding: 10px;
+      font-size: 15px;
+      width: 400px;
+  }
+  
+  .seach-btn{
+      border: none;
+      background-color: #FFFFFF;
+      padding: 13px 10px;
+      cursor: pointer;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #58257b;
+  }
+    
+  .nava{
+    width: 100%;
+    margin-left: 130px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background-color: #993399;
+    color: #FFFFFF;
+  }
+
+  .text{
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    padding: 20px;
+    color: #101010;
+    font-size: 15px;
+  }
+
+  
+
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+}
